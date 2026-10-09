@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Form</title>
+        <style>
+            .extra{
+                border-width: 3px;
+                position:absolute;
+                border-style: dotted;
+            }
+        </style>
+    </head>
+    <body>
+        <center class="extra">
+            <h1>Course Application</h1>
+            <form action="/submit-form" method="POST">
+                <input name="name" type="text" size="60" maxlength="50" placeholder="Full Name"><br><br>
+                <input name="email" type="text" size="27" maxlength="80" placeholder="Email">
+                <input name="phone" type="text" size="27" maxlength="12" placeholder="Phone"><br><br>
+                <label>Which course are you appling for?</label><br><br>
+                <label>Course A<input name="course" type="radio" value="A"></label><br><br>
+                <label>Course B<input name="course"type="radio" value="B"></label><br><br>
+                <label>Course C<input name="course"type="radio" value="C"></label><br><br>
+                <label>Date of birth</label><br><br>
+                <input type="date"name="dob" size="27" maxlength="10" placeholder="dd-mm-yyyy">
+                <label>Male<input name="gender" type="radio" value="A"></label>
+                <label>Female<input name="gender" type="radio" value="B"></label><br><br>
+                <label>Education</label><br><br>
+                <input type="name" type="text" size="60" maxlength="50" placeholder="School"><br><br>
+                <textarea rows="5" cols="56" placeholder="Address"></textarea><br><br>
+                <input name="name" type="text" size="27" maxlength="20" placeholder="City">
+                <input name="name" type="text" size="27" maxlength="20" placeholder="State"><br><br>
+                <input id="name" type="text" size="27" maxlength="7" placeholder="Zip Code">
+                <input id="name" type="text" size="27" maxlength="20" placeholder="Country"><br><br>
+                <input type="submit" size="60">
+
+            </form>
+        </center>
+    </body>
+</html>
